@@ -1,24 +1,28 @@
 {
     "name": "project-dev",
-    "dockerComposeFile": ["docker-compose.yml"],
+    "dockerComposeFile": [
+        "docker-compose.yml"
+    ],
     "service": "vscode",
-    "runServices": ["vscode"],
+    "runServices": [
+        "vscode"
+    ],
     "shutdownAction": "stopCompose",
     "workspaceFolder": "/workspace",
     "postCreateCommand": "",
     "extensions": [
         "james-yu.latex-workshop",
         // Git
-        "eamodio.gitlens",
+        // "eamodio.gitlens",
         // Other helpers
-        "shardulm94.trailing-spaces",
-        "stkb.rewrap", // rewrap comments after n characters on one line
+        // "shardulm94.trailing-spaces",
+        // "stkb.rewrap", // rewrap comments after n characters on one line
         // Other
-        "vscode-icons-team.vscode-icons",
+        // "vscode-icons-team.vscode-icons",
     ],
     "settings": {
         // General settings
-        "files.eol": "\n",
+        // "files.eol": "\n",
         // Latex settings
         "latex-workshop.chktex.enabled": true,
         "latex-workshop.latex.clean.subfolder.enabled": true,
